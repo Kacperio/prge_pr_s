@@ -1,0 +1,48 @@
+.tb {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to top right, green, navy);
+  color: aliceblue;
+}
+.kitka {
+  position: absolute;
+  right: 0;
+  height: 100vh;
+}
+.tb_ttl {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.tabele {
+  height: 75vh;
+  padding-left: 60px;
+  overflow-y: scroll;
+}
+.tabele table {
+  width: 400px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.tabele tr {
+  background: #000;
+  background: rgba(255, 255, 255, 0.3);
+  border-bottom: solid 1px #fff;
+  text-align: left;
+}
+
+.tabele tbody tr {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.tabele tbody tr:hover {
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.tabele td {
+  padding: 8px 4px;
+  text-align: left;
+}

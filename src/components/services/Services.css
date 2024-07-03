@@ -1,0 +1,64 @@
+.services {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top right, green, navy);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map {
+  margin: 40px;
+  z-index: 2;
+}
+.kk1 {
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  height: 480px;
+  border-bottom-left-radius: 25%;
+  border-top-left-radius: 25%;
+  opacity: 0.6;
+}
+.mm1 {
+  position: absolute;
+  bottom: 45px;
+  left: 0px;
+  height: 480px;
+  border-bottom-right-radius: 25%;
+  border-top-right-radius: 25%;
+  opacity: 0.6;
+}
+.database {
+  margin: 40px;
+  z-index: 2;
+}
+.tt {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 20px;
+  color: aliceblue;
+  display: none;
+  padding-bottom: 10px;
+}
+.img {
+  height: 300px;
+}
+.map:hover {
+  transition: 0.7s;
+  background: rgb(42, 52, 107);
+  box-shadow: 0px 0px 0px 4px black inset;
+}
+.database:hover {
+  transition: 0.7s;
+  background: rgb(42, 52, 107);
+  box-shadow: 0px 0px 0px 4px black inset;
+}
+.map:hover > .tt {
+  display: block;
+}
+.database:hover > .tt {
+  display: block;
+}

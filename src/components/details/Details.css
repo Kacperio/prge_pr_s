@@ -1,0 +1,30 @@
+ol {
+  list-style-type: lower-greek;
+  font-size: 22px;
+}
+.img1 {
+  height: 100vh;
+}
+
+.dd {
+  background: linear-gradient(to top right, green, navy);
+  color: aliceblue;
+  height: 100vh;
+  width: 100%;
+}
+.right {
+  position: absolute;
+  top: 60px;
+  left: 685px;
+}
+.left {
+  flex-direction: column;
+}
+.tittle {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+}
+.ttt {
+  font-size: 22px;
+}
